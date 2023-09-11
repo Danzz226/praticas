@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black
+}
+
+section .container .circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+
+}
+
+section .container .circle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+    /*utilizando o calc, devemos fazer um calculo de 
+    valores de propriedade do html. No caso atual devemos
+    fazer 360 / 20 = 18
+    360:valor do circulo
+    20: quantidades de "span" que temos*/
+}
+
+section .container .circle span:before {
+    content:'' ;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: purple;
+    border-radius: 50%
+}
