@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            height: 100%;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background: #242424 url(paisagem/paisagem.png) center center / cover no-repeat fixed;
+/*aqui é utilizado o short-hand, metodo para encurtar o codigo usando uma sequencia especifica*/
+        }
+
+
+        form {
+            background-color: #000000a2;
+            color: whitesmoke;
+            max-width: 380px;
+            margin: auto;
+            padding: 15px;
+
+            border: 1px solid #7389eb;
+            border-radius: 15px;
+            box-sizing: border-box;
+            box-shadow: 2px 4px 4px 1px #00000088;
+
+        }
+
+        h1 {
+            color: #8986e3;
+            text-align: center;
+        }
+
+        p.texto > input {
+            background-color: #ffffff;
+            width: 340px;
+        }
+
+        span>input{
+            text-align: center;
+            margin: 0px 55px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Cadastro</h1>
+        <p class="texto">Nome: <br>
+            <input type="text" name="" id="nome">
+        </p>
+
+
+        <p class="texto">E-mail: <br>
+            <input type="email" name="" id="email">
+        </p>
+
+
+        <p class="texto">Telefone: <br>
+            <input type="tel" name="" id="telefone">
+        </p>
+
+
+        <p>Gênero: <br>
+            <input type="radio" name="opcoes" id="genero" required>Masculino
+            <input type="radio" name="opcoes" id="genero" required>Feminino
+            <input type="radio" name="opcoes" id="genero" required>Prefiro não informar
+        </p>
+
+        
+        <p class="texto">Senha: <br>
+            <input type="password" id="senha">
+        </p>
+
+        <p>
+            <span class="span">
+                <input class="span" type="submit" value="Enviar">
+                <input class="span" type="reset" value="Limpar">
+            </span class="span">
+        </p>
+    </form>
+</body>
+</html>
