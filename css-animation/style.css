@@ -5,6 +5,16 @@
 
 }
 
+body {
+    background-color: #040305;
+}
+
+   h1{
+        color: #9800ce;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
 
 
 section {
