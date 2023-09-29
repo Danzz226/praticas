@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+/* aqui é a pagina de serviços */
+
+
+ div .serviços1 {
+    text-align: justify;
+    display: block;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    background-color: #0e269d;
+    border-radius: 0 30% ;
+    box-shadow: 4px  2px 5px rgb(0, 0, 0);
+  }
+ 
+
+
+
+  h1 {
+    color:#DAFDBA ;
+    text-align: center;
+
+  }
+
+  .primeiro_paragrafo{
+    text-align: center;
+    font-size: larger;
+    color: #45C4B0 ;
+  }
+
+  p {
+    text-align: center;
+    font-size: large;
+    margin: 15px 0px;
+
+  }
+    .serviços1,.serviços2,.serviços3 {
+      color:  #DAFDBA ;
+      justify-content: center;
+      margin: 0px 65px;
+    }
+  div {
+    display: flex;
+  }
+    body {
+       background-color: #012030;
+    }
+
+    header {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      height: 100px;
+      background-color: #13678A;
+    }
+
+
+/* aqui pra baixo é o site principal */
+
+/* Color Theme Swatches in Hex */
+.Poseidon-1-hex { color: #012030; }
+.Poseidon-2-hex { color: #13678A; }
+.Poseidon-3-hex { color: #45C4B0; }
+.Poseidon-4-hex { color: #9AEBA3; }
+.Poseidon-5-hex { color: #DAFDBA; }
+
+/* Color Theme Swatches in RGBA */
+.Poseidon-1-rgba { color: rgba(0, 32, 48, 1); }
+.Poseidon-2-rgba { color: rgba(18, 103, 138, 1); }
+.Poseidon-3-rgba { color: rgba(68, 196, 175, 1); }
+.Poseidon-4-rgba { color: rgba(153, 234, 162, 1); }
+.Poseidon-5-rgba { color: rgba(217, 252, 186, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Poseidon-1-hsla { color: hsla(200, 96, 9, 1); }
+.Poseidon-2-hsla { color: hsla(197, 76, 30, 1); }
+.Poseidon-3-hsla { color: hsla(170, 52, 52, 1); }
+.Poseidon-4-hsla { color: hsla(126, 66, 76, 1); }
+.Poseidon-5-hsla { color: hsla(91, 94, 86, 1); }
+ 
+    h2{
+      background-color: transparent;
+      color: #9AEBA3;
+      font-size: xx-large;
+      text-align: center;
+    }
+
+    
+    .span_test {
+      text-align: center;
+      margin: 40px ;
+      color: #45C4B0;
+      display: inline-flex;
+      list-style: none;
+      justify-content: center;
+    }
+
+    .container{
+      background-color:rgb(104, 32, 176) ;
+      margin: 10px 60px;
+      justify-content: center;
+    }
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #0e4b9b;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #0d1d27;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #fff;
+  }
+  
+  
+
+
+
+
+
+
+  /* aqui pra baixo é a pagina de suporte */
+
+
+
