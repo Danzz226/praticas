@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #494949;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.divisao {
+    width: 50vw;
+    height: 100vh;
+
+    padding: 70px;
+    text-align: center;
+}
+
+.hamburguer {
+    background: white url(imagens/especial-caseiro-da-casa.jpg) left / 50vw 100vh no-repeat fixed;
+}
+
+h1 {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.lancamento {
+    background-color: red;
+    rotate: -15deg;
+    font-size: 1.3em;
+    max-width: 200px;
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+h2 {
+    background-color: yellow;
+    padding: 5px;
+}
+
+h4 {
+    color: white;
+    margin: 10px;
+}
+ul {
+    color: white;
+    max-width: 200px;
+    text-align: left;
+    margin: 10px auto;
+}
+
+h3 {
+    background-color: orange;
+}
+
+.antigo > p {
+    text-align: left;
+    font-size: 1.5em;
+    color: red;
+}
+
+.preco {
+    font-size: 3em;
+    max-width: 200px;
+    color: white;
+    
+}
+
+.antigo > .preco {
+    background-color: red;
+}
+
+.novo > p {
+    text-align: left;
+    font-size: 1.5em;
+    color: greenyellow;
+}
+
+.novo > .preco {
+    background-color: greenyellow;
+}
+
+.precos {
+    display: flex;
+    justify-content: space-between;
+}
