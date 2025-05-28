@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevStack Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-text">DevStack</span>
+            <span class="logo-dot">.</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Início</a>
+            <a href="#stack">Stack</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#recursos">Recursos</a>
+        </div>
+        <button class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Desenvolva o Futuro</h1>
+                <p class="typewriter">Explore o mundo do desenvolvimento web</p>
+                <div class="tech-stack">
+                    <span class="tech-item"><i class="fab fa-react"></i> React</span>
+                    <span class="tech-item"><i class="fab fa-node"></i> Node.js</span>
+                    <span class="tech-item"><i class="fab fa-python"></i> Python</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code class="language-javascript">
+const future = async () => {
+    await learn('frontEnd');
+    await master('backEnd');
+    return success();
+}
+                    </code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="stack-section">
+            <h2>Nossa Stack Tecnológica</h2>
+            <div class="stack-grid">
+                <div class="stack-card frontend">
+                    <h3>Front-end</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-react"></i> React</li>
+                        <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                    </ul>
+                </div>
+                <div class="stack-card backend">
+                    <h3>Back-end</h3>
+                    <ul>
+                        <li><i class="fab fa-node"></i> Node.js</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <li><i class="fas fa-server"></i> Express</li>
+                        <li><i class="fas fa-fire"></i> Firebase</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects-section">
+            <h2>Projetos em Destaque</h2>
+            <div class="github-projects">
+                <!-- Projetos do GitHub serão carregados aqui via API -->
+            </div>
+        </section>
+
+        <section id="recursos" class="resources-section">
+            <h2>Recursos para Desenvolvedores</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Documentação</h3>
+                    <p>Acesse guias detalhados e documentação técnica para aprimorar seus conhecimentos</p>
+                    <a href="#" class="resource-link">Explorar <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Exemplos de Código</h3>
+                    <p>Encontre snippets e projetos práticos para acelerar seu desenvolvimento</p>
+                    <a href="#" class="resource-link">Ver exemplos <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Tutoriais</h3>
+                    <p>Aprenda com vídeos e tutoriais passo a passo sobre diversas tecnologias</p>
+                    <a href="#" class="resource-link">Assistir <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Comunidade</h3>
+                    <p>Conecte-se com outros desenvolvedores e compartilhe experiências</p>
+                    <a href="#" class="resource-link">Participar <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+            <h2>Últimos Artigos</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="path/to/blog1.jpg" alt="Desenvolvimento Web">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Frontend</span>
+                        <h3>Tendências em Desenvolvimento Web 2024</h3>
+                        <p>Descubra as principais tecnologias e práticas que estão moldando o desenvolvimento web este ano.</p>
+                        <a href="#" class="blog-link">Ler mais</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="path/to/blog2.jpg" alt="Backend Development">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Backend</span>
+                        <h3>Melhores Práticas em API REST</h3>
+                        <p>Um guia completo sobre como construir APIs REST escaláveis e seguras.</p>
+                        <a href="#" class="blog-link">Ler mais</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section">
+            <div class="newsletter-content">
+                <h2>Fique por dentro!</h2>
+                <p>Receba as últimas novidades e atualizações diretamente no seu email.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor email" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>DevStack Academy</h4>
+                <p>Transformando desenvolvedores em mestres da web</p>
+            </div>
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DevStack Academy. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
