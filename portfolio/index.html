@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="images/logo .jpg" > 
+                <!-- alex vai me mandar a imagem comppleta  -->
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Inicio</a></li>
+            <li class="link"><a href="#">Trabalhos</a></li>
+            <li class="link"><a href="languages.html">Conhecimentos</a></li>
+            <li class="link"><a href="desenvolvimento.html">Sobre mim</a></li>
+        </ul>
+        <button class="btn">Contrate-me </button>
+        <button class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>MEU PORTFOLIO</h4>
+            <h1>Olá, eu sou <span> Daniel </span>, um estudante de programação com um sonho de trabalhar com desenvolvimento web</h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit libero vero repudiandae ducimus perferendis. Itaque autem rem alias neque at nostrum! Doloribus suscipit totam eveniet ullam ipsum delectus veniam dicta! 
+            </p>
+            <button class="btn"> Contrate-me </button>
+        </div>
+        
+        <div class="img">
+            <img src="images/Programmer-amico.png" >
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="content">
+            <h4>MINHAS HABILIDADES</h4>
+            <h1>Tecnologias que <span>domino</span></h1>
+            <p>
+                Aqui estão as principais tecnologias com as quais trabalho e desenvolvo projetos
+            </p>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="images/html-css-.png" alt="HTML5 e CSS3">
+                <h3>HTML5 & CSS3</h3>
+                <div class="projects">
+                    <button class="btn show-projects-btn">Ver Projetos</button>
+                    <div class="projects-list" style="display: none;">
+                        <div class="project-item">
+                            <h4>Portfólio Pessoal</h4>
+                            <p>Site portfólio desenvolvido com HTML5 e CSS3</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-small">Ver Demo</a>
+                                <a href="#" class="btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/java.png" alt="Java">
+                <h3>Java</h3>
+                <div class="projects">
+                    <button class="btn show-projects-btn">Ver Projetos</button>
+                    <div class="projects-list" style="display: none;">
+                        <div class="project-item">
+                            <h4>Sistema de Gerenciamento</h4>
+                            <p>Sistema desenvolvido em Java com interface gráfica Swing</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-small">Ver Demo</a>
+                                <a href="#" class="btn-small">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <h4>Jogo de Xadrez</h4>
+                            <p>Jogo de xadrez com interface gráfica e regras completas</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-small">Ver Demo</a>
+                                <a href="#" class="btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/java-script.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <div class="projects">
+                    <button class="btn show-projects-btn">Ver Projetos</button>
+                    <div class="projects-list" style="display: none;">
+                        <div class="project-item">
+                            <h4>Calculadora</h4>
+                            <p>Calculadora interativa com JavaScript</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-small">Ver Demo</a>
+                                <a href="#" class="btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/python.png" alt="Python">
+                <h3>Python</h3>
+                <div class="projects">
+                    <button class="btn show-projects-btn">Ver Projetos</button>
+                    <div class="python-projects-list" style="display: none;">
+                        <div class="project-item">
+                            <h4>Jogo da Velha</h4>
+                            <p>Jogo clássico desenvolvido com interface gráfica usando Tkinter</p>
+                            <div class="project-links">
+                                <a href="projects/jogo_velha.py" class="btn-small" download>Download</a>
+                                <button class="btn-small demo-btn" data-project="jogo-velha">Demo</button>
+                            </div>
+                        </div>
+
+                        <div class="project-item">
+                            <h4>Gerenciador de Tarefas</h4>
+                            <p>Sistema de TODO list com armazenamento em arquivo</p>
+                            <div class="project-links">
+                                <a href="projects/todo_list.py" class="btn-small" download>Download</a>
+                                <button class="btn-small demo-btn" data-project="todo">Demo</button>
+                            </div>
+                        </div>
+
+                        <div class="project-item">
+                            <h4>Calculadora de IMC</h4>
+                            <p>Calculadora com interface gráfica e histórico</p>
+                            <div class="project-links">
+                                <a href="projects/imc_calc.py" class="btn-small" download>Download</a>
+                                <button class="btn-small demo-btn" data-project="imc">Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="content">
+            <h4>PROJETOS EM DESTAQUE</h4>
+            <h1>Meus <span>Projetos</span></h1>
+            <p>
+                Conheça alguns dos meus projetos mais relevantes e as tecnologias utilizadas em cada um deles
+            </p>
+        </div>
+
+        <div class="featured-projects">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project1.jpg" alt="Projeto 1">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfólio Interativo</h3>
+                    <p>Site portfólio responsivo com animações e interações modernas</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-small">Ver Demo</a>
+                        <a href="#" class="btn-small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project2.jpg" alt="Projeto 2">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Swing</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Sistema de Gerenciamento</h3>
+                    <p>Sistema desktop completo com interface gráfica e banco de dados</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-small">Ver Demo</a>
+                        <a href="#" class="btn-small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project3.jpg" alt="Projeto 3">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Gerenciador de Tarefas</h3>
+                    <p>Aplicativo desktop com interface gráfica e armazenamento local</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-small">Ver Demo</a>
+                        <a href="#" class="btn-small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="content">
+            <h4>EXPERIÊNCIA PROFISSIONAL</h4>
+            <h1>Minha <span>Jornada</span></h1>
+            <p>
+                Conheça minha trajetória profissional e os principais marcos da minha carreira
+            </p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Desenvolvedor Front-end</h3>
+                    <p class="timeline-date">2023 - Presente</p>
+                    <p>Desenvolvimento de interfaces web responsivas e interativas</p>
+                    <div class="timeline-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Estagiário de Desenvolvimento</h3>
+                    <p class="timeline-date">2022 - 2023</p>
+                    <p>Suporte no desenvolvimento de aplicações desktop e web</p>
+                    <div class="timeline-tech">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container contact-section">
+        <div class="content">
+            <h4>CONTATO</h4>
+            <h1>Vamos <span>Conversar</span></h1>
+            <p>
+                Estou sempre aberto a novas oportunidades e parcerias. Entre em contato comigo através das minhas redes sociais ou email.
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:danielvcruzsiqueira@gmail.com" class="contact-link">danielvcruzsiqueira@gmail.com</a>
+                        <p class="contact-description">Envie-me um email para discutirmos oportunidades</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/daniel-victor-218378323" target="_blank" class="contact-link">linkedin.com/in/daniel-victor-218378323</a>
+                        <p class="contact-description">Conecte-se comigo no LinkedIn para networking</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/Danzz226" target="_blank" class="contact-link">github.com/Danzz226</a>
+                        <p class="contact-description">Confira meus projetos e contribuições</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-availability">
+                <h3>Disponibilidade</h3>
+                <div class="availability-status">
+                    <span class="status-dot"></span>
+                    <p>Disponível para novas oportunidades</p>
+                </div>
+                <div class="availability-details">
+                    <div class="availability-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Horário Comercial</span>
+                    </div>
+                    <div class="availability-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Remoto / Híbrido</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h4>Como tudo <span>começou</span></h4>
+
+        <div class="introduction">
+            <h4>Quero começar falando que eu sempre tive paixão na area tecnologicas </h4>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
